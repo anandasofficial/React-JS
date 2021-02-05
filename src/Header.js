@@ -1,0 +1,13 @@
+import React from 'react';
+import './Header.css'
+
+function Header() {
+  return ( 
+    <div className='header'>
+       <img className = "header_icon" 
+       src = "D:\Reactprogram\serviceprovide\fasthand.png" alt = ""/>
+    </div>
+  );
+}
+
+export default Header;
